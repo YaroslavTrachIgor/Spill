@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,7 +19,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CEE6D0902D3210110049DAE4 /* Exceptions for "Spill" folder in "Spill" target */ = {
+		CEE6D0902D3210110049DAE4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -29,14 +29,7 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CE5FFFCA2D31E7C6008E77B0 /* Spill */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CEE6D0902D3210110049DAE4 /* Exceptions for "Spill" folder in "Spill" target */,
-			);
-			path = Spill;
-			sourceTree = "<group>";
-		};
+		CE5FFFCA2D31E7C6008E77B0 /* Spill */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (CEE6D0902D3210110049DAE4 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Spill; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +118,7 @@
 				};
 			};
 			buildConfigurationList = CE5FFFC32D31E7C6008E77B0 /* Build configuration list for PBXProject "Spill" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -137,7 +131,6 @@
 				CEBA6BF12D31E8CC00D6EBA6 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				CEE6D07D2D31E91D0049DAE4 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
 			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = CE5FFFC92D31E7C6008E77B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
