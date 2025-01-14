@@ -175,6 +175,7 @@ struct SignInView: View {
                     }
                 })
                 
+                
                 // Sign in with Email
                 Button(action: { showEmailSignIn = true }) {
                     HStack {
